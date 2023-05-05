@@ -8,20 +8,20 @@ export default {
 <template>
   <div>
     <div class="p-1">
-      <strong>tieu de:</strong>
+      <strong>Tiêu đề:</strong>
       {{ contact.title }}
     </div>
     <div class="p-1">
-      <strong>anh bia:</strong>
+      <strong>Ảnh bìa:</strong>
       <img width="300" :src="contact.img" alt="">
 
     </div>
     <div class="p-1">
-      <strong>mo ta:</strong>
+      <strong>Mô tả:</strong>
       {{ contact.desc }}
     </div>
     <div class="p-1">
-      <strong>content:</strong>
+      <strong>Nội dung:</strong>
       {{ contact.content }}
     </div>
 

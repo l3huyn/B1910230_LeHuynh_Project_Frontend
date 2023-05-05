@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <div class="page d-flex justify-content-center">
     <p>
       Oops, không thể tìm thấy trang. Trở về
       <router-link to="/">trang chủ.</router-link>
